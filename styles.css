@@ -1,6 +1,9 @@
 body {
     background-image: url(bufchik.jpg);
+    font-family: 'Roboto', sans-serif;
+
 }
+
 h1, h2 {
     color:purple;
     font-size: 96px;
@@ -12,7 +15,7 @@ h1, h2 {
     padding-left: 15px;
     /* background-image: url(bufchik.jpg); */
     background-color: rgb(235, 235, 235);
-    font-family: cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
