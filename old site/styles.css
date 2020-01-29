@@ -1,0 +1,64 @@
+body {
+    background-image: url(bufchik.jpg);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1, h2 {
+    color:purple;
+    font-size: 96px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding-left: 15px;
+    /* background-image: url(bufchik.jpg); */
+    background-color: rgb(235, 235, 235);
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+img {
+    height: 320px;
+    /* width: 320px;*/
+}
+
+em{
+    text-transform: uppercase;
+    font-style: initial;
+}
+/* body{
+    background-color: blue;
+} */
+#first {
+    text-align: left;
+}
+/* #second {
+    text-align: right;
+} */
+.right {
+    text-align: right;
+}
+.tacos{
+    color: teal;
+}
+.big {
+    font-size: 32px;
+}
+p.tacos .big {
+    font-size: 48px;
+}
+
+p {
+    text-align: center;
+    font-family: helvetica;
+    background-color: rgb(235, 235, 235);
+}
+
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
