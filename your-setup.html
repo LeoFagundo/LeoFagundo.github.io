@@ -66,10 +66,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-7">
-                    <h2>Search for the good stuff</h2>
-                    <p>If you prefer tea, this probably isn't the site for you. For millions of years it has been the
-                        sole responsibility of humanity to find the perfect combination of coffee bean and milk (or milk
-                        substitute). This journey has culminated with my exhaustive knowledge of everything. </p>
+                    <h2>How do YOU espresso?</h2>
+                    <p>Tell us how you've setup your espresso station!</p>
 
                 </div>
                 <div class="col">
@@ -77,9 +75,22 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col mb-2">
-                    <h3><a href=basics.html>Enjoy</a></h3>
+                <div class="col-md-6">
+                    <form action="https://formspree.io/mayekvqv" method="POST">
+                        <div class="form-group">
+                  <label for="exampleInputMachine">Espresso Machine</label>
+                  <input type="text" name="Machine" class="form-control" id="exampleInputMachine>" aria-describedby="machineHelp" placeholder="Espresso Machine">
                 </div>
+                <div class="form-group">
+                  <label for="exampleInputGrinder">Grinder</label>
+                  <input type="text" name="Grinder" class="form-control" id="exampleInputGrinder" placeholder="Grinder">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputCoffee">Favorite Coffee</label>
+                    <input type="text" name="Coffee" class="form-control" id="exampleInputCoffee" placeholder="Coffee">
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+              </form>
             </div>
         </div>
 
